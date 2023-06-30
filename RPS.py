@@ -7,6 +7,7 @@ def game(s):
     """
         :type s: str
     """
+    print("Hreloo")
     l: List[str] = ["rock", "paper", "scissors"]
     a = random.choice(l)
     if s.lower() == a:
